@@ -1,0 +1,41 @@
+# Project 1: Company Network Infrastructure Design
+
+## Overview
+Designed and configured a small company network infrastructure using Cisco Packet Tracer. The network consists of three departments: **HR, Finance, and IT**, connected through switches and a central router, with PCs, laptops, wireless access points, and smartphones.
+
+The goal of this project was to understand how devices communicate within a company network and how network infrastructure is designed and configured.
+
+## Network Design
+- Created a company network with separate HR, Finance, and IT departments.
+- Connected end devices such as PCs and laptops to network switches.
+- Used wireless access points to connect wireless devices.
+- Connected departmental switches to a central switch and router.
+- Explored how routers, switches, and end devices work together in a network.
+
+## Practical Implementation
+- Built the network topology manually in Cisco Packet Tracer.
+- Connected devices using appropriate network connections.
+- Configured IP addresses and default gateways on end devices.
+- Tested network connectivity using ping tests.
+- Observed device connection status and verified communication between devices.
+
+## What I Learned
+- How company network infrastructure is designed.
+- The roles of routers, switches, and servers in a network.
+- How to connect multiple PCs and networking devices.
+- How wired and wireless devices communicate.
+- How IPv4 addresses and default gateways support network communication.
+- How to test connectivity and troubleshoot basic network issues.
+
+## Skills Demonstrated
+- Network Topology Design
+- Cisco Packet Tracer
+- Router and Switch Connectivity
+- IPv4 Addressing
+- Default Gateway Configuration
+- Wired and Wireless Networking
+- Network Connectivity Testing
+- Basic Network Troubleshooting
+
+## Tools Used
+- Cisco Packet Tracer
