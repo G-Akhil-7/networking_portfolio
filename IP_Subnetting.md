@@ -1,0 +1,83 @@
+# IPv4 Addressing & Subnetting – Small Enterprise Network
+
+## Project Overview
+
+This project demonstrates IPv4 addressing and subnet design for a small enterprise network using Cisco Packet Tracer.
+
+The network represents a company with three departments: HR, Finance, and IT. Devices were configured with static IP addresses, subnet masks, and default gateways to establish network connectivity and practise subnetting concepts.
+
+The project helped me understand how IP addressing and subnetting are used to organize devices and enable communication within an enterprise network.
+
+## Objectives
+
+- Understand IPv4 addressing and CIDR notation.
+- Calculate subnet masks and network ranges.
+- Identify network addresses and broadcast addresses.
+- Determine usable host address ranges.
+- Configure static IP addresses and default gateways.
+- Test network connectivity using the `ping` command.
+
+## Tools Used
+
+- Cisco Packet Tracer
+- IPv4 Addressing
+- Subnetting and CIDR
+- Static IP Configuration
+- Ping and Connectivity Testing
+
+## Network Design
+
+The simulated company network includes:
+
+- HR Department
+- Finance Department
+- IT Department
+- Router and switch infrastructure
+- Wireless access point
+- Laptop and smartphone
+- Wired and wireless network connectivity
+
+The devices were configured with IP addressing information appropriate to the network design. Connectivity was tested using ping commands.
+
+## Subnetting Example
+
+The following is an example subnet plan using the `192.168.1.0/24` address range divided into `/26` subnets.
+
+| Department | Network Address | Subnet Mask | Usable Host Range | Broadcast Address |
+|---|---|---|---|---|
+| HR | 192.168.1.0/26 | 255.255.255.192 | 192.168.1.1 – 192.168.1.62 | 192.168.1.63 |
+| Finance | 192.168.1.64/26 | 255.255.255.192 | 192.168.1.65 – 192.168.1.126 | 192.168.1.127 |
+| IT | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191 |
+
+**Note:** This table is an example subnetting plan. Refer to the actual Packet Tracer configuration for the final addresses used in the implemented network.
+
+## Implementation
+
+1. Designed a small enterprise network in Cisco Packet Tracer.
+2. Connected the router, switch, PCs, wireless access point, laptop, and smartphone.
+3. Configured static IPv4 addresses and subnet masks on the end devices.
+4. Configured default gateways for communication with other networks.
+5. Tested connectivity using ping commands.
+6. Verified the network configuration and saved the Packet Tracer project.
+
+## Testing and Verification
+
+Connectivity was tested using the `ping` command from the Packet Tracer command prompt.
+
+
+## Skills Demonstrated
+
+- IPv4 Addressing
+- Subnetting and CIDR Calculations
+- Subnet Masks and Host Ranges
+- Network and Broadcast Address Identification
+- Static IP Configuration
+- Default Gateway Configuration
+- Basic Network Troubleshooting
+- Network Connectivity Testing
+- Cisco Packet Tracer
+- Enterprise Network Design Fundamentals
+
+
+This project is part of my networking and cybersecurity learning portfolio.
+
